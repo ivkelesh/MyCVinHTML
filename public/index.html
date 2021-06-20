@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Curriculum Vitae of Ivan Kelesh</title>
+	<title>Curriculum Vitae of Ivan Kelesh</title>
+
+	<link rel="stylesheet" href="/assets/css/style.css">
+
+
 </head>
 <body>
-	
-			<!-- <h1>Ivan KELESH</h1>
-			<p>Email: iv.kelesh@ya.ru</p>
-			<div>Telefon: 078585889 </div>
-			<div><?php echo "Today is ".date("Y/m/d H:i:s"); ?>	</div>	 -->
-	<header>
-		<h1>Porofolio</h1>
+	<header class="header">
+		<a href="#"><h1>Portfolio</h1></a>
 		<nav>
-			<ul>
+			<ul class="navbuttons">
 				<li><a href="#about"> About</a></li>
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#experience">Experience</a></li>
@@ -22,10 +21,11 @@
 	</header>
 
 	<main>
+	<div class="inline">
 		<section id="about">
 			<h2>About</h2>
-			<img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/man5-512.png" alt="My photo" width="250px">
-			<p>Hello, i'm Kelesh Ivan! <br> It is my Portofolio page with some interesting info about me, my skills and experiences.			</p>
+			<img src="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/man5-512.png" alt="My photo" width="50%">
+			<p>Hello, I'm Kelesh Ivan! <br> It is my Portofolio page with some interesting info about me, my skills and experiences.			</p>
 		</section>
 
 		<section id="skills">
@@ -39,8 +39,11 @@
 				<li>C/C++</li>
 				<li>Python</li>
 			</ul>
+			<img src="https://www.kindpng.com/picc/m/317-3179993_skills-icon-png-transparent-png.png" alt="Skills.png" width="50%">
 		</section>
 		
+	</div>
+
 		<section id="experience">
 			<h2>Experience</h2>
 			<table>
@@ -56,7 +59,7 @@
 						<td>2018-2022</td>
 						<td>Technical University of Moldova</td>
 						<td>
-                            <details>
+                            <details open>
                                 <summary>Student on faculty of Computers, Informatics and Microelectronics</summary>
                                 <p>
                                     <strong>Department:</strong> Informatics and System Ingineering <br>
@@ -69,7 +72,7 @@
 						<td>2021</td>
 						<td>DevelopmentAid</td>
 						<td>
-                            <details>
+                            <details open>
                                 <summary>IT Academy student</summary>
                                 <p>Learning: Docker, HTML, CSS, JS, Laravel, SQL, Angular, Bootstrap, PHP <br>
                                     Developing an IT Academy is one of the ways which can help the Moldovan IT community to discover new talents and bridge the gap between companies and junior developers. At the same time, it has proven to be a major source of new talent for the benefit of clients.
@@ -102,9 +105,9 @@
 	
 	</main>
 	<footer>
-		<div align="center">	
-			Copiright &copy 2021, Ivan Kelesh
-		</div>
+		
+			Copiright &copy; 2021, Ivan Kelesh
+		
 	</footer>
 </body>
 </html>

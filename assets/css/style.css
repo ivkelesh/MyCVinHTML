@@ -1,0 +1,132 @@
+body{
+    font-family:courier,arial,helvetica;
+    margin: 0px;
+    width: 100%;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: rgb(121, 121, 121);
+    width: 100%;
+    margin-top: 0px;
+    overflow: hidden;
+    height: 80px;
+    
+}
+
+h1{
+    text-decoration: none;
+    padding: 0px 16px;
+    float: left;
+    color: white;
+}
+
+h1:hover{
+    color:black;
+    transition: 0.7s;
+}
+
+.navbuttons {
+    vertical-align: middle;
+    list-style-type: none;
+    float: right;
+}
+
+.navbuttons li{
+    float: right;
+}
+
+.navbuttons li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    float: right;
+    text-decoration: none;
+}
+
+.navbuttons li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+#about{
+    width: 33%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    margin: 10px 15px 10px 0;
+}
+
+#about section:hover{
+    background-color: white;
+}
+
+#skills{
+    width: 33%;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    margin: 10px 15px 10px 0;
+}
+
+#skills h2{
+    text-align: center;
+}
+
+#skills ul{
+   float: left;
+   font-size: 20pt;
+   
+}
+
+#skills img{
+    float: right;
+}
+
+#skills section:hover{
+    background-color: white;
+}
+
+.inline{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    margin: 0 25px;
+   
+}
+
+#experience {
+    border-collapse: collapse;
+  }
+  
+  #experience td, #experience th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #experience tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #experience tr:hover {background-color: #ddd;}
+  
+  #experience th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #421ee2;
+    color: white;
+  }
+
+  footer{
+    position: relative;
+    padding: 20px 0 20px 0;
+    height: 20%;
+    background-color: rgb(121, 121, 121);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
